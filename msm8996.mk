@@ -141,7 +141,6 @@ PRODUCT_PACKAGES += \
     gps.msm8996 \
     libcurl \
     libgnsspps \
-    libshims_get_process_name
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/flp.conf:system/etc/flp.conf \
@@ -251,7 +250,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2 \
-    rild_socket
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
